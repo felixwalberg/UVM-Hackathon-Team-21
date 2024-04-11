@@ -1,5 +1,5 @@
 # UVM-Hackathon-Team-21
-*Team Members
+* Team Members
 	* Joe Donovan
 	* Rustum Zia
 	* Tsering Wangyle
