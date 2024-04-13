@@ -42,7 +42,7 @@ async function arrivals() {
             table += `
             <tr>
                 <td>${stop.name}</td>
-                <td>${arrival.formattedTime} (${Math.floor(ms / 1000 / 60)} minutes)</td>
+                <td>${arrival.formattedTime} (${Math.max(0, Math.floor(ms / 1000 / 60))} minutes)</td>
             </tr>
             `
         }
