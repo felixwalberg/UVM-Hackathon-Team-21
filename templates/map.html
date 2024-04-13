@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>UVM Bus Map</title>
-    <link rel="stylesheet" href="../UVM-HACKATHON-TEAM-21/leaflet/leaflet.css" />
-    <script src="../UVM-HACKATHON-TEAM-21/leaflet/leaflet.js"></script>
+
+    <!-- Leaflet map -->
+    <link rel="stylesheet" href="../static/leaflet/leaflet.css" />
+    <script src="../static/leaflet/leaflet.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    
+    <!-- Leaflet Routing Machine -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="../static/leaflet-routing-machine-3.2.12/dist/leaflet-routing-machine.css" />
+
+    <!-- Map stype (move to css file) -->
     <style>
         #map { height: 700px; }
     </style>
 </head>
+
 <body>
 
 <script src="/static/map.js"></script>
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="../static/leaflet-routing-machine-3.2.12/dist/leaflet-routing-machine.js"></script>
 <div id="map">
     <script>
 
@@ -38,8 +49,50 @@
     // Add icon to map
     L.marker([51.5, -0.09], {icon: bus1}).addTo(map);
 
+    // Icon class
+    var busIcon = L.Icon.extend({
+    options: {
+        iconSize:     [38, 95],
+        shadowSize:   [50, 64],
+        iconAnchor:   [22, 94],
+        shadowAnchor: [4, 62],
+        popupAnchor:  [-3, -76]
+    }
+    });
+    // Creating instances of the icons
+    // var bus1 = new LeafIcon({iconUrl: 'image1.png'}),
+    //     bus2 = new LeafIcon({iconUrl: 'image2.png'}),
+    //     bus3 = new LeafIcon({iconUrl: 'image3.png'});
+    //     L.marker([51.5, -0.09], {icon: bus1}).addTo(map);
+    // L.marker([51.495, -0.083], {icon: bus2}).addTo(map);
+    // L.marker([51.49, -0.1], {icon: bus3}).addTo(map);
 
+    // Routing code
+    // var map = L.map('map');
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Creating routes
+    L.Routing.control({
+        waypoints: [
+            L.latLng(57.74, 11.94),
+            L.latLng(57.6792, 11.949)
+        ],
+        routeWhileDragging: true
+    }).addTo(map);
+
+    L.Routing.control({
+        waypoints: [
+            L.latLng(57.74, 11.94),
+            L.latLng(57.6792, 12.949)
+        ],
+        routeWhileDragging: true
+    }).addTo(map);
+    
     </script>
+    
 
 
 </div>
