@@ -5,3 +5,9 @@
 	* Tsering Wangyle
 	* Felix Walberg
 	* Eli Malloy
+
+## Set-up
+
+```
+pip install Flask
+```
