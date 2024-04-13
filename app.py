@@ -64,12 +64,10 @@ def get_stops():
     route1_data = []
     route2 = "19139"
     route2_data = []
-    for stop in data[route1]['stops']:
-        stop_data = [stop["stop_name"], stop["stop_code"], stop["coordinates"][0], stop["coordinates"][1]]
-        route1_data.append(stop_data)
-    for stop in data[route2]['stops']:
-        stop_data = [stop["stop_name"], stop["stop_code"], stop["coordinates"][0], stop["coordinates"][1]]
-        route2_data.append(stop_data)
+    for stop in data[route1]:
+        route1_data.append(stop)
+    for stop in data[route2]:
+        route2_data.append(stop)
     bus_routes.append(route1_data)
     bus_routes.append(route2_data)
 

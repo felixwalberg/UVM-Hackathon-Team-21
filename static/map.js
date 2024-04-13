@@ -17,17 +17,17 @@ async function updatePositions() {
 
     setBusPosition(1, data[0].lat, data[0].lon);
 }
-// async function setRoutes() {
-//     const response = await fetch("/data/stops", {
-//         method: "POST",
-//     });
-//     const data = await response.json();
+async function setRoutes() {
+    const response = await fetch("/data/stops", {
+        method: "POST",
+    });
+    const data = await response.json();
     
-//     for (const route of data) {
-//         setBusRoutes(route);
-//     }
-// }
-
+    for (const route of data) {
+        setBusRoutes(route);
+    }
+}
+setRoutes()
 updatePositions()
 setInterval(() => {
     updatePositions();
