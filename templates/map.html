@@ -49,6 +49,7 @@
     });
     // Add icon to map
     // L.marker([44.475752, -73.196282], {icon: bus1}).addTo(map);
+	var marker = L.marker([map.getCenter()], {icon: bus1}).addTo(map);
 
     // Icon class
     // var busIcon = L.Icon.extend({
@@ -62,8 +63,8 @@
     // });
     function setBusPosition(id, latitude, longitude)
     {
+		marker.setLatLng([latitude, longitude]);
         console.log(latitude)
-        L.marker([latitude, longitude], {icon: bus1}).addTo(map);
     }
     // Creating instances of the icons
     // var bus1 = new LeafIcon({iconUrl: 'image1.png'}),
