@@ -28,7 +28,7 @@
 <div id="map">
     <script>
 
-    var map = L.map('map').setView([51.505, -0.09], 13);
+    var map = L.map('map').setView([44.475752, -73.196282], 13);
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
@@ -47,7 +47,7 @@
         popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
     });
     // Add icon to map
-    L.marker([51.5, -0.09], {icon: bus1}).addTo(map);
+    L.marker([44.475752, -73.196282], {icon: bus1}).addTo(map);
 
     // Icon class
     var busIcon = L.Icon.extend({
@@ -76,17 +76,19 @@
 
     // Creating routes
     L.Routing.control({
+        show:false,
         waypoints: [
-            L.latLng(57.74, 11.94),
-            L.latLng(57.6792, 11.949)
+            L.latLng(44.464546559, -73.160079806),
+            L.latLng(44.675752, -73.196282)
         ],
         routeWhileDragging: true
     }).addTo(map);
 
     L.Routing.control({
+        show:false,
         waypoints: [
-            L.latLng(57.74, 11.94),
-            L.latLng(57.6792, 12.949)
+            L.latLng(44.275752, -73.196282),
+            L.latLng(44.475752, -73.196282)
         ],
         routeWhileDragging: true
     }).addTo(map);
