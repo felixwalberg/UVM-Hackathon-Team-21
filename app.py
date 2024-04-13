@@ -24,7 +24,12 @@ def get_vehicles():
     if data['status'] != "success":
         return None
 
-    return data['data']
+    items = data['data']
+
+    ROUTES = ["19137", "19139"]
+    vehicles = [bus for bus in items if bus["route_id"] in ROUTES]
+
+    return vehicles
 
 if __name__=="__main__":
     app.run(debug=True)
