@@ -10,11 +10,14 @@ async function updatePositions() {
         marker.remove()
     }
     
-    for (const bus of data) {
+    for (const bus of data['gmt']) {
         bus_markers.push(L.marker([bus.lat, bus.lon], {icon: bus1}).addTo(map))
     }
+    for (const bus of data['cat']) {
+        bus_markers.push(L.marker([bus.lat, bus.lon], {icon: bus_cat}).addTo(map))
+    }
 
-    setBusPosition(1, data[0].lat, data[0].lon);
+    // setBusPosition(1, data[0].lat, data[0].lon);
 }
 
 updatePositions()
