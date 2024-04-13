@@ -63,7 +63,8 @@
     // });
     function setBusPosition(id, latitude, longitude)
     {
-		marker.setLatLng([latitude, longitude]);
+		const latlang = new L.LatLnd(latitude, longitude);
+		marker.setLatLng(latlang);
         console.log(latitude)
     }
     // Creating instances of the icons
