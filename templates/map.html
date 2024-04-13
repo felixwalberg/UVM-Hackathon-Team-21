@@ -48,8 +48,8 @@
         popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
     });
     // Add icon to map
-    // L.marker([44.475752, -73.196282], {icon: bus1}).addTo(map);
-	var marker = L.marker([map.getCenter()], {icon: bus1}).addTo(map);
+    var marker = L.marker([44.475752, -73.196282], {icon: bus1}).addTo(map);
+	// var marker = L.marker([map.getCenter()], {icon: bus1}).addTo(map);
 
     // Icon class
     // var busIcon = L.Icon.extend({
@@ -83,7 +83,7 @@
     // Routing code
     // var map = L.map('map');
 
-    L.routelayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors'
     }).addTo(map);
 
