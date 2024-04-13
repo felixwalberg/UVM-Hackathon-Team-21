@@ -3,6 +3,7 @@
         "stops": [
             {
                 "stop_name": "Williston Road at Mills Avenue",
+                "stop_code": "2530427",
                 "coordinates": [
                     44.464546559,
                     -73.160079806
@@ -10,6 +11,7 @@
             },
             {
                 "stop_name": "Downtown Transit Center - A, C, E, G, I",
+                "stop_code": "2562322",
                 "coordinates": [
                     44.479731,
                     -73.214298
@@ -17,6 +19,7 @@
             },
             {
                 "stop_name": "Downtown Transit Center - B, D, F, H, J",
+                "stop_code": "2562331",
                 "coordinates": [
                     44.480074771,
                     -73.214345589
@@ -24,6 +27,7 @@
             },
             {
                 "stop_name": "S. Winooski Avenue at Bank Street",
+                "stop_code": "805484",
                 "coordinates": [
                     44.478387,
                     -73.211225
@@ -31,6 +35,7 @@
             },
             {
                 "stop_name": "Main Street at S. Winooski",
+                "stop_code": "805485",
                 "coordinates": [
                     44.475929,
                     -73.21056
@@ -38,6 +43,7 @@
             },
             {
                 "stop_name": "Main Street at S. Union Street",
+                "stop_code": "805486",
                 "coordinates": [
                     44.47603,
                     -73.20863
@@ -45,6 +51,7 @@
             },
             {
                 "stop_name": "Main Street at S. Willard Street",
+                "stop_code": "805487",
                 "coordinates": [
                     44.476129,
                     -73.205639
@@ -52,6 +59,7 @@
             },
             {
                 "stop_name": "Main Street at S. Prospect Street",
+                "stop_code": "805488",
                 "coordinates": [
                     44.476288,
                     -73.200853
@@ -59,6 +67,7 @@
             },
             {
                 "stop_name": "Main Street at University Terrace",
+                "stop_code": "805489",
                 "coordinates": [
                     44.475445,
                     -73.196883
@@ -66,6 +75,7 @@
             },
             {
                 "stop_name": "University Heights",
+                "stop_code": "805490",
                 "coordinates": [
                     44.47443,
                     -73.19472
@@ -73,6 +83,7 @@
             },
             {
                 "stop_name": "Dorset Street at Williston Road",
+                "stop_code": "805491",
                 "coordinates": [
                     44.46822,
                     -73.18168
@@ -80,6 +91,7 @@
             },
             {
                 "stop_name": "Dorset Street at Peoples United Bank",
+                "stop_code": "805492",
                 "coordinates": [
                     44.46717,
                     -73.18152
@@ -87,6 +99,7 @@
             },
             {
                 "stop_name": "University Mall",
+                "stop_code": "805493",
                 "coordinates": [
                     44.46386,
                     -73.183538
@@ -94,6 +107,7 @@
             },
             {
                 "stop_name": "Williston Road at Heath Street",
+                "stop_code": "805500",
                 "coordinates": [
                     44.46633,
                     -73.1689
@@ -101,6 +115,7 @@
             },
             {
                 "stop_name": "Williston Road at Davis Parkway",
+                "stop_code": "805501",
                 "coordinates": [
                     44.46617,
                     -73.16793
@@ -108,6 +123,7 @@
             },
             {
                 "stop_name": "Williston Road at Hayden Parkway",
+                "stop_code": "805502",
                 "coordinates": [
                     44.46578,
                     -73.16625
@@ -115,6 +131,7 @@
             },
             {
                 "stop_name": "Williston Road at Elsom Parkway",
+                "stop_code": "805503",
                 "coordinates": [
                     44.46537,
                     -73.16438
@@ -122,6 +139,7 @@
             },
             {
                 "stop_name": "Williston Road at Victoria Drive",
+                "stop_code": "805504",
                 "coordinates": [
                     44.46483,
                     -73.16207
@@ -129,6 +147,7 @@
             },
             {
                 "stop_name": "Williston Road at Mills Avenue",
+                "stop_code": "805505",
                 "coordinates": [
                     44.46438,
                     -73.16013
@@ -136,6 +155,7 @@
             },
             {
                 "stop_name": "Dorset Street at Barnes & Noble",
+                "stop_code": "805529",
                 "coordinates": [
                     44.466905,
                     -73.181203
@@ -143,6 +163,7 @@
             },
             {
                 "stop_name": "Williston Road at Sheraton Hotel",
+                "stop_code": "805530",
                 "coordinates": [
                     44.471703,
                     -73.188163
@@ -150,6 +171,7 @@
             },
             {
                 "stop_name": "University Heights",
+                "stop_code": "805531",
                 "coordinates": [
                     44.474604,
                     -73.194513
@@ -157,6 +179,7 @@
             },
             {
                 "stop_name": "Main Street at S. Prospect Street",
+                "stop_code": "805532",
                 "coordinates": [
                     44.476386,
                     -73.201075
@@ -164,6 +187,7 @@
             },
             {
                 "stop_name": "Main Street at S. Willard Street",
+                "stop_code": "805533",
                 "coordinates": [
                     44.47623,
                     -73.205
@@ -171,6 +195,7 @@
             },
             {
                 "stop_name": "Main Street at S Union Street",
+                "stop_code": "805534",
                 "coordinates": [
                     44.47612,
                     -73.20933
@@ -178,6 +203,7 @@
             },
             {
                 "stop_name": "Main Street at Church Street",
+                "stop_code": "805535",
                 "coordinates": [
                     44.47602,
                     -73.21237
@@ -185,6 +211,7 @@
             },
             {
                 "stop_name": "Main Street at Pine Street",
+                "stop_code": "805536",
                 "coordinates": [
                     44.47588,
                     -73.2159
@@ -192,6 +219,7 @@
             },
             {
                 "stop_name": "Battery Street at College Street",
+                "stop_code": "805537",
                 "coordinates": [
                     44.4766,
                     -73.21867
@@ -199,6 +227,7 @@
             },
             {
                 "stop_name": "Battery Street at Cherry Street",
+                "stop_code": "805538",
                 "coordinates": [
                     44.478999736,
                     -73.218831904
@@ -206,6 +235,7 @@
             },
             {
                 "stop_name": "Main Street at Summit Street",
+                "stop_code": "805867",
                 "coordinates": [
                     44.47620265,
                     -73.202512519
@@ -213,6 +243,7 @@
             },
             {
                 "stop_name": "Main Street at Opposite Edmunds School",
+                "stop_code": "805870",
                 "coordinates": [
                     44.476195,
                     -73.207487
@@ -220,6 +251,7 @@
             },
             {
                 "stop_name": "Main Street at Williams Street",
+                "stop_code": "805875",
                 "coordinates": [
                     44.47632,
                     -73.20283
@@ -227,6 +259,7 @@
             },
             {
                 "stop_name": "Marshall Avenue at Harvest Lane",
+                "stop_code": "805895",
                 "coordinates": [
                     44.445714,
                     -73.117377
@@ -234,6 +267,7 @@
             },
             {
                 "stop_name": "Williston Road at N. Brownell Road",
+                "stop_code": "805896",
                 "coordinates": [
                     44.45493,
                     -73.12297
@@ -241,6 +275,7 @@
             },
             {
                 "stop_name": "Williston Road at S. Brownell Road",
+                "stop_code": "805904",
                 "coordinates": [
                     44.455,
                     -73.12343
@@ -248,6 +283,7 @@
             },
             {
                 "stop_name": "University Mall at Stop sign at Hannafords",
+                "stop_code": "805943",
                 "coordinates": [
                     44.463252,
                     -73.183412
@@ -255,6 +291,7 @@
             },
             {
                 "stop_name": "Williston Road at Staples Plaza",
+                "stop_code": "805946",
                 "coordinates": [
                     44.471708,
                     -73.188722
@@ -262,6 +299,7 @@
             },
             {
                 "stop_name": "Dorset Street at Blue Mall",
+                "stop_code": "805947",
                 "coordinates": [
                     44.46448,
                     -73.18078
@@ -269,6 +307,7 @@
             },
             {
                 "stop_name": "Williston Road at Doubletree Hotel",
+                "stop_code": "805959",
                 "coordinates": [
                     44.46842,
                     -73.1786
@@ -276,6 +315,7 @@
             },
             {
                 "stop_name": "Williston Road at Kennedy Drive",
+                "stop_code": "805960",
                 "coordinates": [
                     44.46303,
                     -73.15443
@@ -283,6 +323,7 @@
             },
             {
                 "stop_name": "Marshall Avenue at Trader Lane",
+                "stop_code": "805964",
                 "coordinates": [
                     44.44518,
                     -73.1158
@@ -290,6 +331,7 @@
             },
             {
                 "stop_name": "Industrial Ave at White Cap Industrial Park",
+                "stop_code": "805968",
                 "coordinates": [
                     44.461342646,
                     -73.123732043
@@ -297,6 +339,7 @@
             },
             {
                 "stop_name": "Marshall Avenue at Hannafords",
+                "stop_code": "805973",
                 "coordinates": [
                     44.445047,
                     -73.114986
@@ -304,6 +347,7 @@
             },
             {
                 "stop_name": "Walmart",
+                "stop_code": "805974",
                 "coordinates": [
                     44.442322708,
                     -73.121237928
@@ -311,6 +355,7 @@
             },
             {
                 "stop_name": "Williston Road at HoHum Motel",
+                "stop_code": "805975",
                 "coordinates": [
                     44.464255,
                     -73.158906
@@ -318,6 +363,7 @@
             },
             {
                 "stop_name": "Williston Road at Thrifty",
+                "stop_code": "805976",
                 "coordinates": [
                     44.46355,
                     -73.1558
@@ -325,6 +371,7 @@
             },
             {
                 "stop_name": "Williston Road at Victory Drive",
+                "stop_code": "805977",
                 "coordinates": [
                     44.465096,
                     -73.162601
@@ -332,6 +379,7 @@
             },
             {
                 "stop_name": "Williston Road at Pillsbury Manor",
+                "stop_code": "805978",
                 "coordinates": [
                     44.465579,
                     -73.164727
@@ -339,6 +387,7 @@
             },
             {
                 "stop_name": "Williston Road at Patchen Road",
+                "stop_code": "805979",
                 "coordinates": [
                     44.466939,
                     -73.170813
@@ -346,6 +395,7 @@
             },
             {
                 "stop_name": "Williston Road at Alpine Shop",
+                "stop_code": "805980",
                 "coordinates": [
                     44.468054,
                     -73.176417
@@ -353,6 +403,7 @@
             },
             {
                 "stop_name": "Williston Road at Helena Drive",
+                "stop_code": "805996",
                 "coordinates": [
                     44.45038,
                     -73.11262
@@ -360,6 +411,7 @@
             },
             {
                 "stop_name": "Williston Road at Blair Park Road",
+                "stop_code": "805997",
                 "coordinates": [
                     44.45255,
                     -73.11755
@@ -367,6 +419,7 @@
             },
             {
                 "stop_name": "Cherry Street at Opposite 3 Cathedral Square",
+                "stop_code": "806011",
                 "coordinates": [
                     44.479106,
                     -73.217703
@@ -374,6 +427,7 @@
             },
             {
                 "stop_name": "Marshall Avenue at Gardeners Supply",
+                "stop_code": "806043",
                 "coordinates": [
                     44.44588,
                     -73.11962
@@ -381,6 +435,7 @@
             },
             {
                 "stop_name": "Harvest Lane at Marshall Avenue",
+                "stop_code": "806044",
                 "coordinates": [
                     44.44467,
                     -73.12133
@@ -388,6 +443,7 @@
             },
             {
                 "stop_name": "Williston Road at Williston Liquidation Center",
+                "stop_code": "806045",
                 "coordinates": [
                     44.45728,
                     -73.12797
@@ -395,6 +451,7 @@
             },
             {
                 "stop_name": "Williston Road at Aviation Avenue",
+                "stop_code": "806064",
                 "coordinates": [
                     44.46058,
                     -73.14902
@@ -402,6 +459,7 @@
             },
             {
                 "stop_name": "University Mall at Sears",
+                "stop_code": "806069",
                 "coordinates": [
                     44.463197,
                     -73.18201
@@ -409,6 +467,7 @@
             },
             {
                 "stop_name": "Williston Road at Citgo",
+                "stop_code": "806076",
                 "coordinates": [
                     44.46758,
                     -73.17477
@@ -416,6 +475,7 @@
             },
             {
                 "stop_name": "Williston Road at Blockbuster",
+                "stop_code": "806077",
                 "coordinates": [
                     44.46705,
                     -73.17215
@@ -423,6 +483,7 @@
             },
             {
                 "stop_name": "Williston Road at VT Tire",
+                "stop_code": "806078",
                 "coordinates": [
                     44.462,
                     -73.15225
@@ -430,6 +491,7 @@
             },
             {
                 "stop_name": "Williston Road at Ace Hardware",
+                "stop_code": "806079",
                 "coordinates": [
                     44.46055,
                     -73.1492
@@ -437,6 +499,7 @@
             },
             {
                 "stop_name": "Williston Road at Talent Skate Park",
+                "stop_code": "806080",
                 "coordinates": [
                     44.45882,
                     -73.14568
@@ -444,6 +507,7 @@
             },
             {
                 "stop_name": "Williston Road at Shunpike Road",
+                "stop_code": "806081",
                 "coordinates": [
                     44.45842,
                     -73.1429
@@ -451,6 +515,7 @@
             },
             {
                 "stop_name": "Williston Road at Engineers Drive",
+                "stop_code": "806082",
                 "coordinates": [
                     44.4582,
                     -73.1327
@@ -458,6 +523,7 @@
             },
             {
                 "stop_name": "Williston Road at Commerce Street",
+                "stop_code": "806083",
                 "coordinates": [
                     44.45337,
                     -73.11968
@@ -465,6 +531,7 @@
             },
             {
                 "stop_name": "Williston Road at Harvest Lane",
+                "stop_code": "806084",
                 "coordinates": [
                     44.4521,
                     -73.11688
@@ -472,6 +539,7 @@
             },
             {
                 "stop_name": "Williston Road at VT 2A",
+                "stop_code": "806085",
                 "coordinates": [
                     44.45023,
                     -73.11262
@@ -479,6 +547,7 @@
             },
             {
                 "stop_name": "VT 2A at Key Bank",
+                "stop_code": "806086",
                 "coordinates": [
                     44.44872,
                     -73.11095
@@ -486,6 +555,7 @@
             },
             {
                 "stop_name": "VT 2A at Wright Avenue",
+                "stop_code": "806087",
                 "coordinates": [
                     44.44722,
                     -73.11105
@@ -493,6 +563,7 @@
             },
             {
                 "stop_name": "VT 2A at Marshall Avenue (Ponderosa)",
+                "stop_code": "806088",
                 "coordinates": [
                     44.444733,
                     -73.112287
@@ -500,6 +571,7 @@
             },
             {
                 "stop_name": "VT 2A at Connor Way",
+                "stop_code": "806096",
                 "coordinates": [
                     44.446816,
                     -73.110949
@@ -507,6 +579,7 @@
             },
             {
                 "stop_name": "Williston Road at Miller Lane",
+                "stop_code": "806112",
                 "coordinates": [
                     44.45833,
                     -73.13283
@@ -514,6 +587,7 @@
             },
             {
                 "stop_name": "Williston Rd. at Valley Rd",
+                "stop_code": "806113",
                 "coordinates": [
                     44.45853,
                     -73.142534
@@ -521,6 +595,7 @@
             },
             {
                 "stop_name": "Williston Road at Contact Communication",
+                "stop_code": "806114",
                 "coordinates": [
                     44.45962,
                     -73.14707
@@ -528,6 +603,7 @@
             },
             {
                 "stop_name": "Williston Road at Kennedy Drive",
+                "stop_code": "806115",
                 "coordinates": [
                     44.46202,
                     -73.15193
@@ -535,6 +611,7 @@
             },
             {
                 "stop_name": "Williston Road at Stone House Commons",
+                "stop_code": "806116",
                 "coordinates": [
                     44.466486,
                     -73.168721
@@ -546,6 +623,7 @@
         "stops": [
             {
                 "stop_name": "Downtown Transit Center - A, C, E, G, I",
+                "stop_code": "2562322",
                 "coordinates": [
                     44.479731,
                     -73.214298
@@ -553,6 +631,7 @@
             },
             {
                 "stop_name": "Downtown Transit Center - B, D, F, H, J",
+                "stop_code": "2562331",
                 "coordinates": [
                     44.480074771,
                     -73.214345589
@@ -560,6 +639,7 @@
             },
             {
                 "stop_name": "E Allen Street at Hillside Park",
+                "stop_code": "4209790",
                 "coordinates": [
                     44.493028716,
                     -73.175863613
@@ -567,6 +647,7 @@
             },
             {
                 "stop_name": "Shelburne Road at Farrell Street",
+                "stop_code": "805595",
                 "coordinates": [
                     44.450421,
                     -73.208905
@@ -574,6 +655,7 @@
             },
             {
                 "stop_name": "Pearl Street at Hungerford Terrace",
+                "stop_code": "805752",
                 "coordinates": [
                     44.480581,
                     -73.207105
@@ -581,6 +663,7 @@
             },
             {
                 "stop_name": "Pearl Street at S. Willard Street",
+                "stop_code": "805753",
                 "coordinates": [
                     44.480612,
                     -73.205833
@@ -588,6 +671,7 @@
             },
             {
                 "stop_name": "Pearl Street at S Prospect Street (UHC)",
+                "stop_code": "805754",
                 "coordinates": [
                     44.480731,
                     -73.201381
@@ -595,6 +679,7 @@
             },
             {
                 "stop_name": "Colchester Avenue at Mansfield House",
+                "stop_code": "805755",
                 "coordinates": [
                     44.480579,
                     -73.198914
@@ -602,6 +687,7 @@
             },
             {
                 "stop_name": "Colchester Avenue at Fleming Museum",
+                "stop_code": "805756",
                 "coordinates": [
                     44.480591263,
                     -73.196866524
@@ -609,6 +695,7 @@
             },
             {
                 "stop_name": "UVM Medical Center",
+                "stop_code": "805757",
                 "coordinates": [
                     44.478656664,
                     -73.193969644
@@ -616,6 +703,7 @@
             },
             {
                 "stop_name": "Colchester Avenue at Latham Court",
+                "stop_code": "805758",
                 "coordinates": [
                     44.482512,
                     -73.191938
@@ -623,6 +711,7 @@
             },
             {
                 "stop_name": "Colchester Avenue at Thibault Parkway",
+                "stop_code": "805759",
                 "coordinates": [
                     44.483129,
                     -73.190514
@@ -630,6 +719,7 @@
             },
             {
                 "stop_name": "Colchester Avenue at 339",
+                "stop_code": "805760",
                 "coordinates": [
                     44.484018,
                     -73.188415
@@ -637,6 +727,7 @@
             },
             {
                 "stop_name": "Colchester Avenue at Chase Street",
+                "stop_code": "805761",
                 "coordinates": [
                     44.486436,
                     -73.186976
@@ -644,6 +735,7 @@
             },
             {
                 "stop_name": "Colchester Avenue at Barrett Street",
+                "stop_code": "805762",
                 "coordinates": [
                     44.487802,
                     -73.186696
@@ -651,6 +743,7 @@
             },
             {
                 "stop_name": "Winooski Falls/Champlain Mill",
+                "stop_code": "805763",
                 "coordinates": [
                     44.49022,
                     -73.18437
@@ -658,6 +751,7 @@
             },
             {
                 "stop_name": "College Parkway at Opposite Florida Avenue",
+                "stop_code": "805765",
                 "coordinates": [
                     44.493226,
                     -73.170992
@@ -665,6 +759,7 @@
             },
             {
                 "stop_name": "Saint Michael's College",
+                "stop_code": "805766",
                 "coordinates": [
                     44.492973017,
                     -73.167726976
@@ -672,6 +767,7 @@
             },
             {
                 "stop_name": "College Parkway at Lime Kiln Road",
+                "stop_code": "805767",
                 "coordinates": [
                     44.492695,
                     -73.163626
@@ -679,6 +775,7 @@
             },
             {
                 "stop_name": "College Parkway at Fanny Allen Hospital",
+                "stop_code": "805768",
                 "coordinates": [
                     44.497364,
                     -73.158333
@@ -686,6 +783,7 @@
             },
             {
                 "stop_name": "Ethan Allen Avenue at University Lane",
+                "stop_code": "805769",
                 "coordinates": [
                     44.502994,
                     -73.151287
@@ -693,6 +791,7 @@
             },
             {
                 "stop_name": "Ethan Allen Avenue at Catamount Lane",
+                "stop_code": "805770",
                 "coordinates": [
                     44.503845,
                     -73.150689
@@ -700,6 +799,7 @@
             },
             {
                 "stop_name": "Ethan Allen Avenue at VT Public TV",
+                "stop_code": "805771",
                 "coordinates": [
                     44.50475,
                     -73.149892
@@ -707,6 +807,7 @@
             },
             {
                 "stop_name": "Ethan Allen Avenue at Opposite Green Mt. Nursing",
+                "stop_code": "805775",
                 "coordinates": [
                     44.506784,
                     -73.145364
@@ -714,6 +815,7 @@
             },
             {
                 "stop_name": "Ethan Allen Avenue at Essex Avenue (Bld. #310)",
+                "stop_code": "805776",
                 "coordinates": [
                     44.50543,
                     -73.143241
@@ -721,6 +823,7 @@
             },
             {
                 "stop_name": "Pearl Street at West Street Extension",
+                "stop_code": "805777",
                 "coordinates": [
                     44.499522825,
                     -73.130628243
@@ -728,6 +831,7 @@
             },
             {
                 "stop_name": "Pearl Street at Opposite Complex 159",
+                "stop_code": "805778",
                 "coordinates": [
                     44.497858,
                     -73.127775
@@ -735,6 +839,7 @@
             },
             {
                 "stop_name": "Pearl Street at Opposite Willey's Court",
+                "stop_code": "805779",
                 "coordinates": [
                     44.496805991,
                     -73.125413855
@@ -742,6 +847,7 @@
             },
             {
                 "stop_name": "Pearl Street at KFC",
+                "stop_code": "805780",
                 "coordinates": [
                     44.496383,
                     -73.124482
@@ -749,6 +855,7 @@
             },
             {
                 "stop_name": "Pearl Street at Capital Lincoln",
+                "stop_code": "805781",
                 "coordinates": [
                     44.495081,
                     -73.121634
@@ -756,6 +863,7 @@
             },
             {
                 "stop_name": "Pearl Street at Roscoe Court (Shopping Center)",
+                "stop_code": "805782",
                 "coordinates": [
                     44.494046,
                     -73.119419
@@ -763,6 +871,7 @@
             },
             {
                 "stop_name": "Pearl Street at Merchants Bank",
+                "stop_code": "805783",
                 "coordinates": [
                     44.492685,
                     -73.11657
@@ -770,6 +879,7 @@
             },
             {
                 "stop_name": "Amtrak",
+                "stop_code": "805792",
                 "coordinates": [
                     44.4924,
                     -73.11022
@@ -777,6 +887,7 @@
             },
             {
                 "stop_name": "Lincoln Street at Brownell Library",
+                "stop_code": "805793",
                 "coordinates": [
                     44.49122,
                     -73.11107
@@ -784,6 +895,7 @@
             },
             {
                 "stop_name": "Pearl Street at Summit Street",
+                "stop_code": "805794",
                 "coordinates": [
                     44.492274,
                     -73.1155
@@ -791,6 +903,7 @@
             },
             {
                 "stop_name": "Pearl Street at Hillcrest Road (Jiffy Lube)",
+                "stop_code": "805795",
                 "coordinates": [
                     44.493225,
                     -73.117389
@@ -798,6 +911,7 @@
             },
             {
                 "stop_name": "Pearl Street at Essex Junction Shopping Center.",
+                "stop_code": "805796",
                 "coordinates": [
                     44.494521,
                     -73.120046
@@ -805,6 +919,7 @@
             },
             {
                 "stop_name": "Pearl Street at Gate A Fairgrounds",
+                "stop_code": "805797",
                 "coordinates": [
                     44.4956,
                     -73.122406
@@ -812,6 +927,7 @@
             },
             {
                 "stop_name": "Pearl Street at Willey's Court",
+                "stop_code": "805798",
                 "coordinates": [
                     44.49691,
                     -73.125335
@@ -819,6 +935,7 @@
             },
             {
                 "stop_name": "Pearl Street at Complex 159",
+                "stop_code": "805799",
                 "coordinates": [
                     44.497953,
                     -73.127588
@@ -826,6 +943,7 @@
             },
             {
                 "stop_name": "Pearl Street at West Street (U-Turn)",
+                "stop_code": "805800",
                 "coordinates": [
                     44.499922,
                     -73.130796
@@ -833,6 +951,7 @@
             },
             {
                 "stop_name": "Pearl Street at 197 Pearl Inc.",
+                "stop_code": "805801",
                 "coordinates": [
                     44.50076,
                     -73.132168
@@ -840,6 +959,7 @@
             },
             {
                 "stop_name": "Pearl Street at Contois Music",
+                "stop_code": "805802",
                 "coordinates": [
                     44.501798,
                     -73.133839
@@ -847,6 +967,7 @@
             },
             {
                 "stop_name": "Pearl Street at 241 Pearl Apartments",
+                "stop_code": "805803",
                 "coordinates": [
                     44.502877,
                     -73.135618
@@ -854,6 +975,7 @@
             },
             {
                 "stop_name": "Pearl Street at Susie Wilson Road",
+                "stop_code": "805804",
                 "coordinates": [
                     44.504157,
                     -73.139286
@@ -861,6 +983,7 @@
             },
             {
                 "stop_name": "Ethan Allen Avenue at Laurette Drive",
+                "stop_code": "805805",
                 "coordinates": [
                     44.504828,
                     -73.142164
@@ -868,6 +991,7 @@
             },
             {
                 "stop_name": "Ethan Allen Avenue at Green Mtn. Nursing",
+                "stop_code": "805806",
                 "coordinates": [
                     44.506969,
                     -73.145567
@@ -875,6 +999,7 @@
             },
             {
                 "stop_name": "Ethan Allen Avenue at Sloane Hall",
+                "stop_code": "805808",
                 "coordinates": [
                     44.504656871,
                     -73.150176641
@@ -882,6 +1007,7 @@
             },
             {
                 "stop_name": "Ethan Allen Avenue at Catamount Lane",
+                "stop_code": "805809",
                 "coordinates": [
                     44.503856,
                     -73.150807
@@ -889,6 +1015,7 @@
             },
             {
                 "stop_name": "Ethan Allen Avenue at Barnes Avenue",
+                "stop_code": "805810",
                 "coordinates": [
                     44.502712,
                     -73.15154
@@ -896,6 +1023,7 @@
             },
             {
                 "stop_name": "College Parkway at Cumberland Farms",
+                "stop_code": "805811",
                 "coordinates": [
                     44.497571,
                     -73.158398
@@ -903,6 +1031,7 @@
             },
             {
                 "stop_name": "College Parkway at Johnson Avenue",
+                "stop_code": "805812",
                 "coordinates": [
                     44.496917,
                     -73.15976
@@ -910,6 +1039,7 @@
             },
             {
                 "stop_name": "College Parkway at Campus Rd. (Saint Mikes East Entrance)",
+                "stop_code": "805813",
                 "coordinates": [
                     44.494898125,
                     -73.161820026
@@ -917,6 +1047,7 @@
             },
             {
                 "stop_name": "Saint Michael's College",
+                "stop_code": "805814",
                 "coordinates": [
                     44.493464544,
                     -73.162882691
@@ -924,6 +1055,7 @@
             },
             {
                 "stop_name": "College Parkway at Campus Rd. (Saint Mikes West Entrance)",
+                "stop_code": "805815",
                 "coordinates": [
                     44.493114,
                     -73.166998
@@ -931,6 +1063,7 @@
             },
             {
                 "stop_name": "College Parkway at Florida Avenue",
+                "stop_code": "805816",
                 "coordinates": [
                     44.493376,
                     -73.171038
@@ -938,6 +1071,7 @@
             },
             {
                 "stop_name": "E Allen Street at Dion Street",
+                "stop_code": "805817",
                 "coordinates": [
                     44.493224275,
                     -73.175639205
@@ -945,6 +1079,7 @@
             },
             {
                 "stop_name": "Spinner Place/ Champlain Mill",
+                "stop_code": "805819",
                 "coordinates": [
                     44.490307566,
                     -73.184893183
@@ -952,6 +1087,7 @@
             },
             {
                 "stop_name": "Colchester Avenue at Barrett Street",
+                "stop_code": "805820",
                 "coordinates": [
                     44.48766,
                     -73.186825
@@ -959,6 +1095,7 @@
             },
             {
                 "stop_name": "Colchester Avenue at Opposite Chase Street",
+                "stop_code": "805821",
                 "coordinates": [
                     44.486574,
                     -73.187045
@@ -966,6 +1103,7 @@
             },
             {
                 "stop_name": "Colchester Avenue at Nash Place",
+                "stop_code": "805822",
                 "coordinates": [
                     44.483724,
                     -73.189341
@@ -973,6 +1111,7 @@
             },
             {
                 "stop_name": "Colchester Avenue at UVM Trinty Campus",
+                "stop_code": "805823",
                 "coordinates": [
                     44.482849,
                     -73.191372
@@ -980,6 +1119,7 @@
             },
             {
                 "stop_name": "Colchester Avenue at Mansfield Avenue",
+                "stop_code": "805824",
                 "coordinates": [
                     44.480697,
                     -73.198467
@@ -987,6 +1127,7 @@
             },
             {
                 "stop_name": "Pearl Street at N. Prospect Street",
+                "stop_code": "805825",
                 "coordinates": [
                     44.480722,
                     -73.200124
@@ -994,6 +1135,7 @@
             },
             {
                 "stop_name": "Pearl Street at N. Williams Street",
+                "stop_code": "805826",
                 "coordinates": [
                     44.480754,
                     -73.203485
@@ -1001,6 +1143,7 @@
             },
             {
                 "stop_name": "Pearl Street at N. Willard Street",
+                "stop_code": "805827",
                 "coordinates": [
                     44.480709,
                     -73.205423
@@ -1008,6 +1151,7 @@
             },
             {
                 "stop_name": "Pearl Street at Greene Street",
+                "stop_code": "805828",
                 "coordinates": [
                     44.480637,
                     -73.207642
@@ -1015,6 +1159,7 @@
             },
             {
                 "stop_name": "Pearl Street at Hillcrest Road",
+                "stop_code": "805886",
                 "coordinates": [
                     44.49273,
                     -73.116386
@@ -1022,6 +1167,7 @@
             },
             {
                 "stop_name": "Pearl Street at N Winooski Avenue",
+                "stop_code": "805954",
                 "coordinates": [
                     44.48046,
                     -73.21053
@@ -1029,6 +1175,7 @@
             },
             {
                 "stop_name": "Global Foundries",
+                "stop_code": "805957",
                 "coordinates": [
                     44.478670217,
                     -73.100922196
@@ -1036,6 +1183,7 @@
             },
             {
                 "stop_name": "Colchester Avenue at VAS Clinic",
+                "stop_code": "806001",
                 "coordinates": [
                     44.480738,
                     -73.197324
@@ -1043,6 +1191,7 @@
             },
             {
                 "stop_name": "College Parkway at Camp Johnson",
+                "stop_code": "806013",
                 "coordinates": [
                     44.498803485,
                     -73.155983533
@@ -1050,6 +1199,7 @@
             },
             {
                 "stop_name": "Fort Ethan Allen/Elly-Long Music Building",
+                "stop_code": "806027",
                 "coordinates": [
                     44.505446,
                     -73.149362
@@ -1057,6 +1207,7 @@
             },
             {
                 "stop_name": "Abenaki Way at CCV",
+                "stop_code": "806031",
                 "coordinates": [
                     44.4914,
                     -73.18188
@@ -1064,6 +1215,7 @@
             },
             {
                 "stop_name": "Ethan Allen Avenue at Winooski Road (#310)",
+                "stop_code": "806048",
                 "coordinates": [
                     44.505670615,
                     -73.143589963
@@ -1071,6 +1223,7 @@
             },
             {
                 "stop_name": "E Allen Street at Gadues Dry Cleaning",
+                "stop_code": "806067",
                 "coordinates": [
                     44.492057,
                     -73.180731
@@ -1078,6 +1231,7 @@
             },
             {
                 "stop_name": "Abenaki Way at Opposite CCV",
+                "stop_code": "806068",
                 "coordinates": [
                     44.490575543,
                     -73.182068265
@@ -1085,6 +1239,7 @@
             },
             {
                 "stop_name": "Ethan Allen Avenue at Rt. 15",
+                "stop_code": "806130",
                 "coordinates": [
                     44.504827,
                     -73.142277
