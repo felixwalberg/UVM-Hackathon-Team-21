@@ -43,12 +43,22 @@
 
         iconSize:     [18, 20], // size of the icon
         shadowSize:   [50, 64], // size of the shadow
-        iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+        iconAnchor:   [0, 20], // point of the icon which will correspond to marker's location
         shadowAnchor: [4, 62],  // the same for the shadow
         popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
     });
     var busStop = L.icon({
         iconUrl: '../static/images/redcircle2.png',
+        // shadowUrl: '../static/bus1.png',
+
+        iconSize:     [10, 10], // size of the icon
+        shadowSize:   [50, 64], // size of the shadow
+        iconAnchor:   [0, 10], // point of the icon which will correspond to marker's location
+        shadowAnchor: [4, 62],  // the same for the shadow
+        popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+    });
+    var busStop2 = L.icon({
+        iconUrl: '../static/images/bluecircle.png',
         // shadowUrl: '../static/bus1.png',
 
         iconSize:     [10, 10], // size of the icon
@@ -98,45 +108,67 @@
     }).addTo(map);
     function setBusRoutes(route_data)
     {
-        waypoints = []
-        for(stop in route_data)
+        
+        var route1 = "19137"
+        var route2 = "19139"
+        var waypoints1 = []
+        var waypoints2 = []
+        for(stop of route_data[route1])
         {
-            waypoints.append(L.latLng(stop[2],stop[3]))
-            console.log(stop[2])
+            waypoints1.push(L.latLng(stop['coordinates'][0],stop['coordinates'][1]))
+            console.log(stop['stop_name'])
+        }
+        
+        L.Routing.control({
+        show:false,
+        waypoints: waypoints1,
+        lineOptions: {
+            styles: [{color: 'red', opacity: 1, weight: 2}]},
+        createMarker: function(i, wp, nWps) {
+            return L.marker(wp.latLng, {icon: busStop });
+        },
+        routeWhileDragging: true
+        }).addTo(map);
+
+        for(stop of route_data[route2])
+        {
+            waypoints2.push(L.latLng(stop['coordinates'][0],stop['coordinates'][1]))
+            console.log(stop['stop_name'])
         }
         L.Routing.control({
         show:false,
-        waypoints: [
-            waypoints
-        ],
+        waypoints: waypoints2,
+        lineOptions: {
+            styles: [{color: 'blue', opacity: 1, weight: 2}]},
         createMarker: function(i, wp, nWps) {
-            return L.marker(wp.latLng, {icon: busStop });
+            return L.marker(wp.latLng, {icon: busStop2 });
         },
         routeWhileDragging: true
-    }).addTo(map);
-    }
-    // Creating routes
-    L.Routing.control({
-        show:false,
-        waypoints: [
-            L.latLng(44.480074771,-73.214345589),
-            L.latLng(44.479731, -73.214298),
-            L.latLng(44.493028716,-73.175863613)
-        ],
-        createMarker: function(i, wp, nWps) {
-            return L.marker(wp.latLng, {icon: busStop });
-        },
-        routeWhileDragging: true
-    }).addTo(map);
+        }).addTo(map);
 
-    L.Routing.control({
-        show:false,
-        waypoints: [
-            L.latLng(44.275752, -73.196282),
-            L.latLng(44.475752, -73.196282)
-        ],
-        routeWhileDragging: true
-    }).addTo(map);
+    }
+    // // Creating routes
+    // L.Routing.control({
+    //     show:false,
+    //     waypoints: [
+    //         L.latLng(44.480074771,-73.214345589),
+    //         L.latLng(44.479731, -73.214298),
+    //         L.latLng(44.493028716,-73.175863613)
+    //     ],
+    //     createMarker: function(i, wp, nWps) {
+    //         return L.marker(wp.latLng, {icon: busStop });
+    //     },
+    //     routeWhileDragging: true
+    // }).addTo(map);
+
+    // L.Routing.control({
+    //     show:false,
+    //     waypoints: [
+    //         L.latLng(44.275752, -73.196282),
+    //         L.latLng(44.475752, -73.196282)
+    //     ],
+    //     routeWhileDragging: true
+    // }).addTo(map);
     
     </script>
     

@@ -8,7 +8,7 @@ GMT_VEHICLES_URL = "https://maps.trilliumtransit.com/gtfsmap-realtime/feed/ccta-
 CAT_VEHICLES_URL = "https://feeds.transloc.com/3/vehicle_statuses?agencies=603&include_arrivals=true"
 GMT_ROUTES_URL = "https://gtfs-api.trilliumtransit.com/gtfs-api/routes/by-feed/ccta-vt-us"
 GMT_STOPS_URL = "https://gtfs-api.trilliumtransit.com/gtfs-api/stops/by-feed/ccta-vt-us/route-id/19137,19139,13496,13497,13498,3190,3191,7458,11182,7455,74419,74409,74410,74411,19141,74418,74413,3175,74412,3153,3176,3167,3177,3181,3168,3183,3197,3194,19140,3195,3196,3186,7335,74414,74415,3171,3172,3174,3188,74416,74417,3163,3164,3165,19138,32941,32942,11183,19143,19142,19144,19145,"
-STOP_DATA = "/static/routes.json"
+STOP_DATA = "static/routes.json"
 
 @app.route("/", methods=["GET"])
 def home():
@@ -53,25 +53,11 @@ def get_vehicles():
     }
 
 @app.route("/data/routes", methods=["POST"])
-def stopData():
-    return jsonify(get_stops())
 def get_stops():
-    bus_routes = []
     with open(STOP_DATA) as file:
         data = json.load(file)
-
-    route1 = "19137"
-    route1_data = []
-    route2 = "19139"
-    route2_data = []
-    for stop in data[route1]:
-        route1_data.append(stop)
-    for stop in data[route2]:
-        route2_data.append(stop)
-    bus_routes.append(route1_data)
-    bus_routes.append(route2_data)
-
-    return bus_routes
+    if(data):
+        return data
 
 if __name__=="__main__":
     app.run(debug=True)
