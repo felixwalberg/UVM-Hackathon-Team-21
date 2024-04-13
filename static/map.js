@@ -75,5 +75,9 @@ async function setRoutes() {
 setRoutes()
 pullData()
 setInterval(() => {
-    pullData();
+    arrivals();
 }, 60*1000)
+
+setInterval(() => {
+    buses();
+}, 1000)
