@@ -29,8 +29,8 @@ async function arrivals() {
         <table class="table table-hover">
             <thead>
                 <tr>
-                    <th>Bus</th>
-                    <th>Arrival</th>
+                    <th>Bus Stop</th>
+                    <th>Est. Arrival time</th>
                 </tr>
             </thead>
             <tbody id="temp_tbody">
@@ -38,10 +38,11 @@ async function arrivals() {
 
     for (const stop of data) {
         for (const arrival of stop.data) {
+            ms = Date.parse(arrival.arrivalTime) - Date.now()
             table += `
             <tr>
                 <td>${stop.name}</td>
-                <td>${arrival.formattedTime}</td>
+                <td>${arrival.formattedTime} (${Math.floor(ms / 1000 / 60)} minutes)</td>
             </tr>
             `
         }
@@ -75,4 +76,4 @@ setRoutes()
 pullData()
 setInterval(() => {
     pullData();
-}, 5000)
+}, 1000)
