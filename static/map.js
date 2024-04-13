@@ -6,4 +6,6 @@ async function updatePositions() {
     setBusPosition(1, data[0].lat, data[0].lon);
 }
 
-updatePositions()
+setInterval(() => {
+    updatePositions()
+}, 5000)
