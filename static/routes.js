@@ -9,8 +9,16 @@ attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreet
 }).addTo(map);
 
 // Custom icons
-var bus1 = L.icon({
+var gmtbus = L.icon({
     iconUrl: '../static/images/gmtbus.png',
+    iconSize:     [18, 20], // size of the icon
+    shadowSize:   [50, 64], // size of the shadow
+    iconAnchor:   [0, 20], // point of the icon which will correspond to marker's location
+    shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+});
+var catbus = L.icon({
+    iconUrl: '../static/images/catbus.png',
     iconSize:     [18, 20], // size of the icon
     shadowSize:   [50, 64], // size of the shadow
     iconAnchor:   [0, 20], // point of the icon which will correspond to marker's location
@@ -34,7 +42,7 @@ var busStop2 = L.icon({
     popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
 });
 // Add icon to map
-var marker = L.marker([44.475752, -73.196282], {icon: bus1}).addTo(map);
+var marker = L.marker([44.475752, -73.196282], {icon: gmtbus}).addTo(map);
 
 // Update the position of the bus icon
 function setBusPosition(id, latitude, longitude)
@@ -43,7 +51,7 @@ function setBusPosition(id, latitude, longitude)
     {
         map.removeLayer(marker);
     }
-    marker = L.marker([latitude, longitude], {icon: bus1}).addTo(map);
+    marker = L.marker([latitude, longitude], {icon: gmtbus}).addTo(map);
 }
 
 // Routes
