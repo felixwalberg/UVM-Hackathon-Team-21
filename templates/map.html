@@ -51,7 +51,7 @@
         iconUrl: '../static/images/redcircle2.png',
         // shadowUrl: '../static/bus1.png',
 
-        iconSize:     [38, 95], // size of the icon
+        iconSize:     [10, 10], // size of the icon
         shadowSize:   [50, 64], // size of the shadow
         iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
         shadowAnchor: [4, 62],  // the same for the shadow
@@ -105,7 +105,9 @@
             L.latLng(44.479731, -73.214298),
             L.latLng(44.493028716,-73.175863613)
         ],
-        createMarker:bus1,
+        createMarker: function(i, wp, nWps) {
+            return L.marker(wp.latLng, {icon: busStop });
+        },
         routeWhileDragging: true
     }).addTo(map);
 
