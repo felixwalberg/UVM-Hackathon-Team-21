@@ -63,9 +63,14 @@
     // });
     function setBusPosition(id, latitude, longitude)
     {
-		const latlang = new L.LatLnd(latitude, longitude);
-		marker.setLatLng(latlang);
-        console.log(latitude)
+        if(marker != undefined)
+        {
+            map.removeLayer(marker);
+        }
+        marker = L.marker([latitude, longitude], {icon: bus1}).addTo(map);
+		// const latlang = new L.LatLnd(latitude, longitude);
+		// marker.setLatLng(latlang);
+        // console.log(latitude)
     }
     // Creating instances of the icons
     // var bus1 = new LeafIcon({iconUrl: 'image1.png'}),
@@ -78,7 +83,7 @@
     // Routing code
     // var map = L.map('map');
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    L.routelayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors'
     }).addTo(map);
 
