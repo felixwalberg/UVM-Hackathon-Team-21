@@ -13,6 +13,8 @@ GMT_STOPS_URL = "https://gtfs-api.trilliumtransit.com/gtfs-api/stops/by-feed/cct
 STOP_DATA = "static/routes.json"
 
 DAVIS_CENTER_GMT_STOPCODE = "805489"
+UHEIGHT_STOPCODE = "805490"
+MED_STOPCODE = "805757"
 
 
 @app.route("/", methods=["GET"])
@@ -27,7 +29,9 @@ def vehicleData():
 @app.route("/data/arrivals", methods=["POST"])
 def arrivalsData():
     return jsonify([
-        gmt_arrivals("Davis/main st", DAVIS_CENTER_GMT_STOPCODE)
+        gmt_arrivals("Davis/main st", DAVIS_CENTER_GMT_STOPCODE),
+        gmt_arrivals("U Heights", UHEIGHT_STOPCODE),
+        gmt_arrivals("UVM Med Center", MED_STOPCODE),
     ]);
 
 def gmt_buses():

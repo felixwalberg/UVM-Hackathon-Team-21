@@ -76,4 +76,4 @@ setRoutes()
 pullData()
 setInterval(() => {
     pullData();
-}, 1000)
+}, 60*1000)
