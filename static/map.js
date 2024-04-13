@@ -51,6 +51,9 @@ async function arrivals() {
             </tbody>
         </table>
     `
+
+    panelContainer = document.getElementById("panelContainer")
+    panelContainer.innerHTML = table
 }
 
 
