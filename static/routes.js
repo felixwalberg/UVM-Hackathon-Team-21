@@ -1,5 +1,5 @@
 // Map of Burlington area
-var map = L.map('map').setView([44.475752, -73.196282], 13);
+var map = L.map('map').setView([44.475752, -73.196282], 15);
 
 // map.setZoom(80);
 
@@ -29,7 +29,7 @@ var busStop = L.icon({
     iconUrl: '../static/images/redcircle2.png',
     iconSize:     [10, 10], // size of the icon
     shadowSize:   [50, 64], // size of the shadow
-    iconAnchor:   [0, 10], // point of the icon which will correspond to marker's location
+    iconAnchor:   [0, 8], // point of the icon which will correspond to marker's location
     shadowAnchor: [4, 62],  // the same for the shadow
     popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
 });
@@ -37,7 +37,7 @@ var busStop2 = L.icon({
     iconUrl: '../static/images/bluecircle.png',
     iconSize:     [10, 10], // size of the icon
     shadowSize:   [50, 64], // size of the shadow
-    iconAnchor:   [0, 10], // point of the icon which will correspond to marker's location
+    iconAnchor:   [0, 8], // point of the icon which will correspond to marker's location
     shadowAnchor: [4, 62],  // the same for the shadow
     popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
 });
