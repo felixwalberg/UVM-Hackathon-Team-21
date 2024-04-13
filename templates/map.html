@@ -36,7 +36,7 @@
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
 
-    // Custom icon
+    // Custom icons
     var bus1 = L.icon({
         iconUrl: '../static/bus1.png',
         // shadowUrl: '../static/bus1.png',
@@ -47,6 +47,16 @@
         shadowAnchor: [4, 62],  // the same for the shadow
         popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
     });
+    // var busStop = L.icon({
+    //     iconUrl: '../static/bus1.png',
+    //     // shadowUrl: '../static/bus1.png',
+
+    //     iconSize:     [38, 95], // size of the icon
+    //     shadowSize:   [50, 64], // size of the shadow
+    //     iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+    //     shadowAnchor: [4, 62],  // the same for the shadow
+    //     popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+    // });
     // Add icon to map
     var marker = L.marker([44.475752, -73.196282], {icon: bus1}).addTo(map);
 	// var marker = L.marker([map.getCenter()], {icon: bus1}).addTo(map);
@@ -95,6 +105,7 @@
             L.latLng(44.479731, -73.214298),
             L.latLng(44.493028716,-73.175863613)
         ],
+        createMarker:bus1,
         routeWhileDragging: true
     }).addTo(map);
 
