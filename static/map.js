@@ -1,4 +1,5 @@
 bus_markers = []
+bus_routes = []
 
 async function updatePositions() {
     const response = await fetch("/data/vehicles", {
