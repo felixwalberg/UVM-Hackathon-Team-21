@@ -59,6 +59,16 @@ async function pullData() {
     await arrivals();
 }
 
+async function setRoutes() {
+    const response = await fetch("/data/routes", {
+        method: "POST",
+    });
+    const data = await response.json();
+    
+    setBusRoutes(data)
+}
+
+setRoutes()
 pullData()
 setInterval(() => {
     pullData();
