@@ -11,7 +11,7 @@ attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreet
 // Custom icons
 var gmtbus = L.icon({
     iconUrl: '../static/images/gmtbus.png',
-    iconSize:     [36, 40], // size of the icon
+    iconSize:     [72, 80], // size of the icon
     shadowSize:   [50, 64], // size of the shadow
     iconAnchor:   [0, 20], // point of the icon which will correspond to marker's location
     shadowAnchor: [4, 62],  // the same for the shadow
@@ -19,7 +19,7 @@ var gmtbus = L.icon({
 });
 var catbus = L.icon({
     iconUrl: '../static/images/catbus.png',
-    iconSize:     [45, 50], // size of the icon
+    iconSize:     [90, 100], // size of the icon
     shadowSize:   [50, 64], // size of the shadow
     iconAnchor:   [0, 20], // point of the icon which will correspond to marker's location
     shadowAnchor: [4, 62],  // the same for the shadow
