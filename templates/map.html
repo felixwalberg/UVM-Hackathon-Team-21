@@ -47,19 +47,22 @@
         popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
     });
     // Add icon to map
-    L.marker([44.475752, -73.196282], {icon: bus1}).addTo(map);
+    // L.marker([44.475752, -73.196282], {icon: bus1}).addTo(map);
 
     // Icon class
-    var busIcon = L.Icon.extend({
-    options: {
-        iconSize:     [38, 95],
-        shadowSize:   [50, 64],
-        iconAnchor:   [22, 94],
-        shadowAnchor: [4, 62],
-        popupAnchor:  [-3, -76]
+    // var busIcon = L.Icon.extend({
+    // options: {
+    //     iconSize:     [38, 95],
+    //     shadowSize:   [50, 64],
+    //     iconAnchor:   [22, 94],
+    //     shadowAnchor: [4, 62],
+    //     popupAnchor:  [-3, -76]
+    // }
+    // });
+    function setBusPosition(id, latitude, longitude)
+    {
+        L.marker([latitude, longitude], {icon: bus1}).addTo(map);
     }
-    });
-    function setBusPosition(id, )
     // Creating instances of the icons
     // var bus1 = new LeafIcon({iconUrl: 'image1.png'}),
     //     bus2 = new LeafIcon({iconUrl: 'image2.png'}),
