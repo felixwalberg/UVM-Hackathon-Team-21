@@ -12,10 +12,10 @@ async function buses() {
     }
 
     for (const bus of data['gmt']) {
-        bus_markers.push(L.marker([bus.lat, bus.lon], {icon: bus1}).addTo(map))
+        bus_markers.push(L.marker([bus.lat, bus.lon], {icon: gmtbus}).addTo(map))
     }
     for (const bus of data['cat']) {
-        bus_markers.push(L.marker([bus.lat, bus.lon], {icon: bus1}).addTo(map))
+        bus_markers.push(L.marker([bus.lat, bus.lon], {icon: catbus}).addTo(map))
     }
 }
 
