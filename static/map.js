@@ -11,15 +11,22 @@ async function updatePositions() {
         marker.remove()
     }
     
-    for (const bus of data['gmt']) {
-        bus_markers.push(L.marker([bus.lat, bus.lon], {icon: bus1}).addTo(map))
-    }
-    for (const bus of data['cat']) {
+    for (const bus of data) {
         bus_markers.push(L.marker([bus.lat, bus.lon], {icon: bus1}).addTo(map))
     }
 
-    // setBusPosition(1, data[0].lat, data[0].lon);
+    setBusPosition(1, data[0].lat, data[0].lon);
 }
+// async function setRoutes() {
+//     const response = await fetch("/data/stops", {
+//         method: "POST",
+//     });
+//     const data = await response.json();
+    
+//     for (const route of data) {
+//         setBusRoutes(route);
+//     }
+// }
 
 updatePositions()
 setInterval(() => {

@@ -96,9 +96,24 @@
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors'
     }).addTo(map);
-    // function setBusRoutes(id, latitudes, longitudes)
+    // function setBusRoutes(route_data)
     // {
-        
+    //     waypoints = []
+    //     for(stop in route_data)
+    //     {
+    //         waypoints.append(L.latLng(stop[2],stop[3]))
+    //         console.log(stop[2])
+    //     }
+    //     L.Routing.control({
+    //     show:false,
+    //     waypoints: [
+    //         waypoints
+    //     ],
+    //     createMarker: function(i, wp, nWps) {
+    //         return L.marker(wp.latLng, {icon: busStop });
+    //     },
+    //     routeWhileDragging: true
+    // }).addTo(map);
     // }
     // Creating routes
     L.Routing.control({
